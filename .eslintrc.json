@@ -1,0 +1,11 @@
+{
+  "extends": ["plugin:playwright/playwright-test"],
+  "env": {
+    "es6": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false
+  },
+  "ignorePatterns": ["node_modules", "package-lock", "*.json"]
+}
